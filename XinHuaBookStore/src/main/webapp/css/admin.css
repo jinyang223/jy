@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+	text-align: center;
+}
+
+a {
+    color: #004643;
+    text-decoration: none; 
+    font-size: 25px; 
+    font-weight: bold; 
+}
+
+a:hover {
+    color: #ff6600; 
+    text-decoration: underline; 
+}
+.container {
+    background-color: #004643;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.data-table1,.data-table1,.data-table2,.data-table3 {
+    width: 100%;
+    min-width:1000px;
+    height: auto;
+    border-collapse: collapse;
+    border: 1px solid #004643;
+}
+
+table.data-table th, table.data-table td,
+table.data-table1 th, table.data-table1 td,
+table.data-table2 th, table.data-table2 td,
+table.data-table3 th, table.data-table3 td {
+    border: 1px solid #004643;
+    padding: 8px;
+    text-align: left;
+}
+
+.data-table thead {
+    background-color: #004643;
+    color: white;
+}
+
+.data-table th, .data-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* 弹出框 */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal form {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}

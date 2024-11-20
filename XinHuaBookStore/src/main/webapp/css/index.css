@@ -1,0 +1,74 @@
+.main {
+    background: url(../images/bg.jpg) no-repeat bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 100vh;
+    padding: 2em 50px;
+    position: relative;
+    z-index: 1;
+    display: flex; 
+	flex-wrap: wrap; 
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+#headdiv{
+	width:100%;
+}
+
+#headdiv h1 {
+    text-align: center;
+}
+
+#headdiv a {
+    color: #004643;
+    text-decoration: none; 
+    font-size: 25px; 
+    font-weight: bold; 
+}
+
+#headdiv a:hover {
+    color: #ff6600; 
+    text-decoration: underline; 
+}
+
+.search {
+	float:right;
+	margin-top:-60px;
+	margin-right:50px;
+}
+
+.search input{
+	height:25px;
+	width:250px;
+}
+
+.search button{
+	height:30px;
+	background-color:#004643;
+  	color: white; 
+}
+
+.book{
+	background: #004643;
+	width:250px;
+	height:350px;
+	margin-top: -2em;
+	margin:50px;
+	display: inline-block;
+}
+
+.book img{
+	width:180px;
+	height:220px;
+	display: block;
+    margin: 20px auto;
+}
+
+.book p{
+	padding-left:30px;
+	color:white;
+}
